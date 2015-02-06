@@ -2,10 +2,11 @@ header {
 
   color: #325050;
   background: #00FFFF;
-  border: solid red 10px;
-  text-align: right;
+  border: solid gray 5px;
+  text-align: center;
   font-size: 32px;
-  font-family: "Helvetica"
+  font-family: "futura"
+  padding-bottom: 20px;
 
 }
 
@@ -62,5 +63,44 @@ a:hover {
   font-size: 20px;
   font-family: futura;
   font-color: gray;
+  background-color: green;
 
+}
+
+.first {
+  background-color: green
+
+}
+
+.second {
+  background-color: red
+
+}
+
+.trollStuff {
+  background-color: blue;
+  color: white;
+
+}
+
+.updaterStuff {
+  background-color: yellow;
+
+}
+
+.statItemsStyle {
+  font-size: 25px;
+
+}
+
+#z {
+
+ color:blue;
+
+
+}
+
+#y {
+
+  color:blue;
 }

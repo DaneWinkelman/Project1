@@ -3,26 +3,32 @@
   <head>
     <title>FORMS TEST</title>
     <link rel="stylesheet" href="project1.css">
-
-
-
   </header>
+
+
   <body>
+
     <header>FORMS TEST</header>
+
     <form>
-      Name: <br>
-      <input type="text" name="name">
+      <section id="z">
+        <fieldset>
+        <p>What's your name and nickname?</p>
+        Name: <br>
+        <input type="text" name="name">
+        <br>
+        Nickname: <br>
+        <input type="text" name="Nickname">
+        </fieldset>
+      </section>
       <br>
-      Nickname: <br>
-      <input type="text" name="Nickname">
-      <br>
 
 
 
 
-
-      <p>
+      <p class=trollStuff>
         What do you think of my form page?
+      </p>
       <label>
         <input type="radio" name="rating" value="maybe"/>
         Good
@@ -35,7 +41,7 @@
         <input type="radio" name="rating" value="maybe"/>
         OK
       </label>
-      </p>
+      <p></p>
 
       <p id="forms">How many times have you visited this website today?
       <select name="referrer" id="Quantity">
@@ -49,7 +55,46 @@
     </p>
 
     <input type="submit" value="submit review" />
+    <section class="updaterStuff">
+    <p>What's your favorite color?</P>
+      <ul>
+        <li id="y">Red</li>
+        <li>Blue</li>
+        <li>Green</li>
+        <li>Black</li>
+      </ul>
+    </section>
+      <script>
+      var nameBox =
+      document.getElementById('z');
+      var favoritColor =
+      document.getElementById('y');
+
+
+
+        favoritColor.className = "statItemsStyle";
+        nameBox.className = "statItemsStyle";
+
+
+      </script>
     </form>
+    <!-- <section id="putThingsHere" class="first">
+        to take or select passages from (a book, film, or the like); abridge by choosing representative sections.
+    </section> -->
+    <!-- <section id="thisHere">
+        to take or select passages from (a book, film, or the like); abridge by choosing representative sections.
+    </section> -->
+    <script>
+//    var element = document.getElementById("thisHere");
+//    alert("wait a second!");
+//    element.className = "second";
+
+// // </script>
+      <form>
+
+    </form>
+
+
   </body>
 
 
