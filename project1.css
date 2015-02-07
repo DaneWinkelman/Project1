@@ -16,6 +16,7 @@ a {
   font-size: 50px ;
   font-style: none;
   text-align: center;
+  background: gray;
      
 }
 
@@ -47,7 +48,7 @@ a:hover {
 .Z {
   text-align: right;
   font-size: 100px;
-
+  background-color: gray;
 }
 
 .tat {
@@ -55,6 +56,8 @@ a:hover {
   font-size: 30px;
   font-color: blue;
   font-style: italic;
+
+
 
 }
 
@@ -96,7 +99,8 @@ a:hover {
 
 #z {
 
- color:blue;
+ color:white;
+ background-color: gray;
 
 
 }
