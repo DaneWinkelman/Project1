@@ -85,7 +85,8 @@ a:hover {
 
 .updaterStuff {
   background-color: yellow;
-
+  padding-right: 200px;
+  padding-left: 200px;
 }
 
 .statItemsStyle {

@@ -15,10 +15,10 @@
         <fieldset>
         <p>What's your name and nickname?</p>
         Name: <br>
-        <input type="text" name="name">
+        <input id = "name" type="text" name="name">
         <br>
         Nickname: <br>
-        <input type="text" name="Nickname">
+        <input id = "nickname" type="text" name="Nickname">
         </fieldset>
       </section>
       <br>
@@ -75,8 +75,36 @@
         favoritColor.className = "statItemsStyle";
         nameBox.className = "statItemsStyle";
 
+        function setup() {
+          var nameBox;
+          nameBox= document.getElementById('name');
+          nameBox.focus();
+        }
+        window.addEventListener('load',setup,false);
+        function checkUsername() {
+          var username = el.value;
+          if (username.length < 5) {
+            elMsg.textContent = 'Not long enough, yet';
+          }
+          else{
+            elMsg.textContent = ' '
+          }
 
+          }
+          var el = document.getElementById('name');
+          var elMsg = document.getElementById('feedback');
+          console.log(el);
+
+
+
+        // function setup() {
+        //   var textInput;
+        //   textInput= document.getElementById('name');
+        //   textInput.focus();
+        // }
+        // window.addEventListener('load',setup,false);
       </script>
+
     </form>
     <!-- <section id="putThingsHere" class="first">
         to take or select passages from (a book, film, or the like); abridge by choosing representative sections.
